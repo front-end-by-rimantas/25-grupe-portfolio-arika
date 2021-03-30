@@ -1,7 +1,8 @@
 // IMPORT
 /* header */
 /* hero */
-/* introduction */
+/* about us */
+/* choose us */
 /* services */
 /* latest works */
 /* skills */
@@ -13,7 +14,8 @@
 // FUNKCIJU PANAUDOJIMAS
 /* header */
 /* hero */
-/* introduction */
+/* about us */
+/* choose us */
 /* services */
 /* latest works */
 /* skills */
