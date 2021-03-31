@@ -2,7 +2,6 @@
 /* header */
 /* hero */
 /* about us */
-/* choose us */
 /* services */
 /* latest works */
 /* skills */
@@ -15,7 +14,6 @@
 /* header */
 /* hero */
 /* about us */
-/* choose us */
 /* services */
 /* latest works */
 /* skills */
