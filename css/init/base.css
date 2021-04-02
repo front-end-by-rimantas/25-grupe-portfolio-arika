@@ -1,3 +1,11 @@
+/* FONTS */
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* BACKGROUND COLORS */
   .bg-blue {
     background-color: var(--color-blue-light);
@@ -7,22 +15,42 @@
   }
 /* TEXT STYLES */
 
-  .title {
-    display: inline-block;
-    width: 100%;
-    font-size: 52px;
-    line-height: 50px;
-    color: var(--color-black);
-    text-transform: none;
-    text-align: center;
-  }
+.left-column > h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.left-column > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.right-about > h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.right-about > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  font-size: 52px;
+  line-height: 50px;
+  color: var(--color-black);
+  text-transform: none;
+  text-align: center;
+}
   
-  .subtitle {
-    display: inline-block;
-    width: 100%;
-    font-size: 16px;
-    line-height: 50px;
-    color: var(--color-grey-light);
-    text-align: center;
-  }
+.subtitle {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 50px;
+  color: var(--color-grey-light);
+  text-align: center;
+}
 
