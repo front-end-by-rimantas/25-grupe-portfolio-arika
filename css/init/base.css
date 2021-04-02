@@ -1,0 +1,28 @@
+/* BACKGROUND COLORS */
+  .bg-blue {
+    background-color: var(--color-blue-light);
+  }
+  .bg-grey {
+    background-color: var(--color-grey-dark);
+  }
+/* TEXT STYLES */
+
+  .title {
+    display: inline-block;
+    width: 100%;
+    font-size: 52px;
+    line-height: 50px;
+    color: var(--color-black);
+    text-transform: none;
+    text-align: center;
+  }
+  
+  .subtitle {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 50px;
+    color: var(--color-grey-light);
+    text-align: center;
+  }
+
