@@ -6,11 +6,17 @@
 /* 3rd party */
 @import './3rd-party/font-awesome.min.css';
 /* components */
+@import './components/button.css';
 @import './components/footer.css';
 @import './components/header.css';
 
-/* CUSTOM STILIUS SEKCIJOMS */
 /* header */
+/* hero */
+/* about us */
 /* services */
-/* achievements */
+/* latest works */
+/* skills */
+/* testimonials */
+/* blog */
+/* contacts */
 /* footer */

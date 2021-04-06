@@ -1,11 +1,23 @@
 // IMPORT
-// header
-// services
-// achievements
-// footer
+/* header */
+/* hero */
+/* about us */
+/* services */
+/* latest works */
+/* skills */
+/* testimonials */
+/* blog */
+/* contacts */
+/* footer */
 
 // FUNKCIJU PANAUDOJIMAS
-// header
-// services
-// achievements
-// footer
+/* header */
+/* hero */
+/* about us */
+/* services */
+/* latest works */
+/* skills */
+/* testimonials */
+/* blog */
+/* contacts */
+/* footer */
