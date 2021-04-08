@@ -1,34 +1,36 @@
 .row > .work-item {
-    margin: 0;
-   
+    margin: 0;   
 }
 
 .work-item  {
-    position: relative;
+     position: relative;
+
 }
 
 .work-item > img  {  
-    opacity: 1;  
+    opacity: 1; 
     width: 100%; 
-    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;     
     
 }
 
-.work-item > a {  
-    transition: .5s ease;
-    opacity: 0;      
-    width: 100%;     
-    padding: 13px;
-    background-color: var(--color-red);
+.work-item > a { 
+    width: 100%;
+    padding: 20px; 
+    background-color: var(--color-red);     
     color: var(--color-blue-light);
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;  
-    bottom: 0;
+    text-decoration: none; 
+    transition: .5s ease;
+    opacity: 0;
+    margin: 0;
     position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;          
 }
 
 .work-item > img:hover {
