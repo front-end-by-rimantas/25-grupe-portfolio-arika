@@ -1,9 +1,47 @@
-
-
-.work-item > img {     
-    width: 100%;  
-}
 .row > .work-item {
     margin: 0;
+   
 }
+
+.work-item  {
+    position: relative;
+}
+
+.work-item > img  {  
+    opacity: 1;  
+    width: 100%; 
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;     
+    
+}
+
+.work-item > a {  
+    transition: .5s ease;
+    opacity: 0;      
+    width: 100%;     
+    padding: 13px;
+    background-color: var(--color-red);
+    color: var(--color-blue-light);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;  
+    bottom: 0;
+    position: absolute;
+}
+
+.work-item > img:hover {
+    opacity: 0.5;     
+}
+
+.work-item > a:hover {
+    opacity: 1;
+}
+
+
+    
+
+
+
 
