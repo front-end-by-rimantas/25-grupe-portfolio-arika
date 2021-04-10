@@ -11,7 +11,8 @@
 @import './components/header.css';
 @import './components/latestWorks.css';
 @import './components/aboutUs.css';
-@import './components/latestBlogs.css'
+@import './components/latestBlogs.css';
+@import './components/hero.css';
 /* header */
 /* hero */
 /* about us */
