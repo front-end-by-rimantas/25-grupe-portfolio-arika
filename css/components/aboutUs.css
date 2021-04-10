@@ -1,7 +1,19 @@
 .aboutUsImg {
-    
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left; 
+
 }
 
 .aboutUsText {
-    padding-left: 20px;    
+    display: inline-block;
+    float: right;
+    padding-right: 15px;
+    padding-left: 40px;  
 }
+
+
+
