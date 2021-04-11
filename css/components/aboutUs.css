@@ -2,11 +2,11 @@
     display: inline-block;
     width: 100%;
     margin-top: 20%;
-    margin-left: 50%;
+    margin-left: 150px;
 }
 
 .aboutUs-text {
-    padding-left: 40px;
+    padding-left: 0px;
     box-sizing: border-box;
     display: block;
     margin-top: 150px;
@@ -28,5 +28,6 @@ padding-bottom: 15px
 
 .aboutUs-p {
     color: var(--color-grey-light);
-    padding-bottom: 15px
+    padding-bottom: 15px;
+    font-size: 15px;
 }
