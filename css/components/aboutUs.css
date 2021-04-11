@@ -1,18 +1,32 @@
-.aboutUsText {
-   /* 
-    margin-top: 15px;
- margin-bottom: 15px;
- padding-right: 100px;
- line-height: 200%;*/
- font-weight: 400;
-    line-height: 200%;
-    padding: 100px;
+.aboutUs-img {
+    display: inline-block;
     width: 100%;
-    padding-left: 0;
-    border-width: 50px;
-   
+    margin-top: 20%;
+    margin-left: 50%;
 }
-.aboutUsImg {
-    width: 100%;
-    padding-left: 200px;
+
+.aboutUs-text {
+    padding-left: 40px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 150px;
+}
+
+.aboutUs-h2 {
+color: var(--color-black);
+padding-bottom: 15px;
+font-size: 32px;
+font-weight: bold;
+
+}
+
+.aboutUs-h3 {
+font-size: 20px;
+padding-bottom: 15px
+
+}
+
+.aboutUs-p {
+    color: var(--color-grey-light);
+    padding-bottom: 15px
 }
