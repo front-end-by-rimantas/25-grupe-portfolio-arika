@@ -3,6 +3,8 @@
 /* hero */
 /* about us */
 /* services */
+import { servicesData } from './data/servicesData.js';
+import { services } from './components/services/services.js';
 /* latest works */
 /* skills */
 /* testimonials */
@@ -68,6 +70,7 @@ function init() {
 }
 /* about us */
 /* services */
+services('#services_block', servicesData);
 /* latest works */
 /* skills */
 /* testimonials */
