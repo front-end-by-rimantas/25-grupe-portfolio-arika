@@ -5,12 +5,19 @@
     align-items: start;
   }
   .services-list > .service-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
     background-color: #fff;
     text-align: center;
     border-radius: 6px;
     border: 5px solid transparent;
-    transition: all 0.35s;
+    box-shadow: 0px 3px 10px 0px rgb(38 59 94 / 10%);
+    transition: ease-in-out all 0.35s;
 
   }
   .services-list > .service-item > i {
@@ -30,7 +37,7 @@
     line-height: 26px;
   }
   .services-list > .service-item:hover {
-    box-shadow: 0px 3px 10px 0px var(--color-red);
+    
     top: 0;
   }
   @media (min-width: 575px) {
@@ -56,4 +63,10 @@
     background-color: aqua;
     height: 20px;
     z-index: -1;
+  }
+  .container {
+    padding: 100px 0;
+  }
+  .subtitle {
+    margin-bottom: 45px;
   }
