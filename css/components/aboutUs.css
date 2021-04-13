@@ -17,17 +17,29 @@ color: var(--color-black);
 padding-bottom: 15px;
 font-size: 32px;
 font-weight: bold;
-
 }
 
 .aboutUs-h3 {
 font-size: 20px;
 padding-bottom: 15px
-
 }
-
+.aboutUs-h3 > .underline {
+    position: relative;
+    z-index: 1;
+  }
+  .aboutUs-h3 > .underline::before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    height: 10px;
+    z-index: -1;
+  }
 .aboutUs-p {
     color: var(--color-grey-light);
     padding-bottom: 15px;
     font-size: 15px;
 }
+
