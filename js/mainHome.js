@@ -1,5 +1,6 @@
 // IMPORT
 /* header */
+import { headerData } from './data/headerData.js';
 /* hero */
 /* about us */
 /* services */
@@ -14,6 +15,7 @@ import { services } from './components/services/services.js';
 
 // FUNKCIJU PANAUDOJIMAS
 /* header */
+new Header('#main_header', headerData);
 /* hero */
 const TypeWriter = function(txtElement, words, wait = 500) {
     this.txtElement = txtElement;
