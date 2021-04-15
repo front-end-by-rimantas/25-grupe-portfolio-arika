@@ -37,8 +37,10 @@
     line-height: 26px;
   }
   .services-list > .service-item:hover {
-    border: 5px solid var(--color-red);
     top: 0;
+    transform: translate(0, -5%);
+    border: 5px solid var(--color-red);
+    
   }
   @media (min-width: 575px) {
     .services-list {
