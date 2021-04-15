@@ -43,6 +43,8 @@
   color: var(--color-black);
   text-transform: none;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
   
 .subtitle {
@@ -52,5 +54,21 @@
   line-height: 50px;
   color: var(--color-grey-light);
   text-align: center;
+  margin-bottom: 50px;
+  line-height: 25px;
 }
 
+.title > .underline {
+  position: relative;
+  z-index: 1;
+}
+
+.title > .underline > .line {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  background-color: #80F3E7;
+  height: 20px;
+  z-index: -1;
+}

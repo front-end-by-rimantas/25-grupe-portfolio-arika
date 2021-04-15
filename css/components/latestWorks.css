@@ -1,18 +1,16 @@
 .row > .work-item {
-    margin: 0;   
+    margin: 0;
 }
 
-.work-item  {
-     position: relative;
-
+.work-item {
+    position: relative;
 }
 
-.work-item > img  {  
-    opacity: 1; 
-    width: 100%; 
+.work-item > img  { 
+    width: 100%;
+    opacity: 1;      
     transition: .5s ease;
-    backface-visibility: hidden;     
-    
+    backface-visibility: hidden;         
 }
 
 .work-item > a { 
@@ -20,8 +18,8 @@
     padding: 20px; 
     background-color: var(--color-red);     
     color: var(--color-blue-light);
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
     text-decoration: none; 
     transition: .5s ease;
