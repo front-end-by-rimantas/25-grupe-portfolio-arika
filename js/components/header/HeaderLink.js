@@ -2,8 +2,7 @@ class HeaderLink {
     constructor(parentDOM, data) {
         this.parentDOM = parentDOM;
         this.data = data;
-
-        this.DOM = null;
+       this.DOM = null;
 
         this.init();
     }
@@ -16,7 +15,7 @@ class HeaderLink {
             return false;
         }
 
-        const DOM = this.parentDOM.querySelector('.col-12');
+        const DOM = this.parentDOM.querySelectorAll('.col-12')[0];
         if (!DOM) {
             return false;
         }
@@ -34,8 +33,8 @@ class HeaderLink {
     }
 
     render() {
-        const { type, href, text } = this.data;
-        let HTML = `<a href="${href}">"${text}"</a>`;
+        const { href, text } = this.data;
+        let HTML = `<a href="${href}">${text}</a>`;
 
         this.DOM.insertAdjacentHTML('beforeend', HTML)
     }

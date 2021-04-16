@@ -40,7 +40,9 @@ const headerData = {
         {type: 'link', href: '#', text: 'fa fa-instagram'},
         {type: 'link', href: '#', text: 'fa fa-linkedin'}
     ]
+    
 }
+console.log(headerData);
 
 export { headerData }
 

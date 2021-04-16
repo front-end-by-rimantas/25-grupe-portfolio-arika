@@ -16,7 +16,8 @@ class Nav {
             return false;
         }
 
-        const DOM = this.parentDOM.querySelector('.col-12');
+        console.log(this.parentDOM.querySelectorAll('.col-12')[0]);
+        const DOM = this.parentDOM.querySelectorAll('.col-12')[0];
         if (!DOM) {
             return false;
         }
@@ -45,7 +46,7 @@ class Nav {
                 subMenuHTML += this.generateHTML(subMenuItem);
             }
 
-            HTML += `<div class="item dropdown ${this.submenuDirection(item.submenuDirection)}">
+            HTML += `<div class="item dropdown ${item.submenuDirection}">
                         ${labelHMTL}
                         <div class="submenu">
                             ${subMenuHTML}
@@ -67,6 +68,7 @@ class Nav {
 
         this.DOM.insertAdjacentHTML('beforeend', `<nav>${HTML}</nav>`);
     }
+
 }
 
 export { Nav }

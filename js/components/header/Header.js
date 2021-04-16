@@ -29,7 +29,7 @@ class Header {
         this.DOM.classList.add('header');
 
         this.render();
-        this.addEvents();
+        // this.addEvents();
     }
 
     isValidSelector() {
@@ -45,9 +45,10 @@ class Header {
         this.DOM.innerHTML = HTML;
 
         const allDOM = this.DOM.querySelectorAll('.row');
-
-        new HeaderLink(allDOM, this.data.HeaderLink);
-        new Nav(allDOM, this.data.nav);
+        // const allDOM = this.DOM.querySelectorAll('.row');
+        // console.log(allDOM);
+        new HeaderLink(allDOM[0], this.data.headerLink);
+        new Nav(allDOM[0], this.data.nav);
         
     }
 }
