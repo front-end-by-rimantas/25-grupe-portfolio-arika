@@ -32,9 +32,13 @@ const headerData = {
         }
 
     ],
-    icons: {
-         link: ['fa fa-facebook', 'fa fa-twitter', 'fa fa-instagram', 'fa fa-linkedin']
-    }
+    icons: [
+        {type: 'link', href: '#', text: 'fa fa-facebook'},
+        {type: 'link', href: '#', text: 'fa fa-twitter'},
+        {type: 'link', href: '#', text: 'fa fa-instagram'},
+        {type: 'link', href: '#', text: 'fa fa-linkedin'}
+    ]
 }
 
 export { headerData }
+
