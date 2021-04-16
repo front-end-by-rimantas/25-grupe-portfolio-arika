@@ -10,7 +10,10 @@
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/latestWorks.css';
-
+@import './components/aboutUs.css';
+@import './components/latestBlogs.css';
+@import './components/hero.css';
+@import './components/services.css';
 /* header */
 /* hero */
 /* about us */

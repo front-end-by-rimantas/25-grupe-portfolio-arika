@@ -16,7 +16,7 @@
 /* TEXT STYLES */
 
 .left-column > h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -46,7 +46,8 @@
   margin-top: 50px;
   margin-bottom: 25px;
 }
-  
+
+
 .subtitle {
   display: inline-block;
   width: 100%;
