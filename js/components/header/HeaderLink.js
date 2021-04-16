@@ -16,7 +16,7 @@ class HeaderLink {
             return false;
         }
 
-        const DOM = this.parentDOM.querySelector('.col-12');
+        const DOM = this.parentDOM.querySelector('.row');
         if (!DOM) {
             return false;
         }
