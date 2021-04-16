@@ -1,5 +1,6 @@
 // IMPORT
 /* header */
+import { Header } from './components/header/Header.js';
 import { headerData } from './data/headerData.js';
 /* hero */
 /* about us */

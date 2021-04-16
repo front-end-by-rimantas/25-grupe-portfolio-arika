@@ -1,4 +1,5 @@
-import { HeaderLink } from './HeaderLink.js';
+import { HeaderLink } from './HeaderLink.js'; 
+import { Nav } from './Nav.js';
 
 class Header {
     constructor(selector, data) {
@@ -50,3 +51,5 @@ class Header {
         
     }
 }
+
+export { Header }

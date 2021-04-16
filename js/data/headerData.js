@@ -12,7 +12,8 @@ const headerData = {
             submenu: [
                 {type: 'link', href: '#', text: 'Home Option 1'},
                 {type: 'link', href: '#', text: 'Home Option 2'}
-            ]
+            ],
+            submenuDirection: 'bottom',
         },
         {type: 'link', href: '#', text: 'About'},
         {type: 'link', href: '#', text: 'Services'},
@@ -28,7 +29,8 @@ const headerData = {
                 {type: 'link', href: '#', text: 'Services'},
                 {type: 'link', href: '#', text: 'Portfolio'},
                 {type: 'link', href: '#', text: 'Contact'}
-            ] 
+            ],
+            submenuDirection: 'bottom', 
         }
 
     ],
