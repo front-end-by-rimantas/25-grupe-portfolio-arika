@@ -3,20 +3,21 @@ function works (selector, data) {
     console.log(data);
  
     const DOM = document.querySelector(selector);
-    const worksArrey = data.list;
-    const imgPath = data.imgPath;
-
+    const {list, imgPath} = data;
+   
     let HTML = '';
 
-    for (let i=0; i < worksArrey.length; i++) {
-        const work = worksArrey[i];
+    for (let i=0; i < list.length; i++) {
+        const work = list[i];
         console.log(work);
 
-        HTML += `<div class="col-12 col-sm-6 col-md-4 work-item ">  
-                <img src="${imgPath + work.img}" + alt="">                         
+        HTML += `<div class=" work-item ">  
+                    <img src="${imgPath + work.img}" alt="">   
+                  
+                    <a href = "#">Our Photography</a>                                           
                 </div>`;
     }
-   
+    
     DOM.innerHTML = HTML;
 }
 
