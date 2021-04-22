@@ -1,20 +1,38 @@
-.row > .work-item {
-    margin: 0;
+.works-list {
+    display: grid;
+    grid-template-columns: auto;    
+    
+  }
+
+.works-list >.work-item {
+    box-sizing: border-box;
+    border: var(--color-blue-light);
+    position: relative; 
+  
 }
 
-.work-item {
-    position: relative;
-}
-
-.work-item > img  { 
+.works-list >.work-item > img  { 
     width: 100%;
     opacity: 1;      
     transition: .5s ease;
-    backface-visibility: hidden;         
+    backface-visibility: hidden;      
+    margin: 0;
+    z-index: 5;           
 }
 
-.work-item > a { 
-    width: 100%;
+.works-list >.work-item > img > fa {    
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: absolute;   
+    transform: translate(50%, 50%);
+    backface-visibility: hidden;
+    margin: 0;
+    transition: .5s ease;
+    opacity: 1;  
+}
+
+.works-list >.work-item > a { 
     padding: 20px; 
     background-color: var(--color-red);     
     color: var(--color-blue-light);
@@ -22,7 +40,7 @@
     font-weight: 600;
     text-align: center;
     text-decoration: none; 
-    transition: .5s ease;
+    transition: all .5s ease;
     opacity: 0;
     margin: 0;
     position: absolute;
@@ -31,17 +49,28 @@
     bottom: 0;          
 }
 
-.work-item > img:hover {
+.works-list >.work-item> img:hover {
     opacity: 0.5;     
 }
 
-.work-item > a:hover {
-    opacity: 1;
+.works-list >.work-item> fa:hover {
+    opacity: 0.5;     
 }
 
+.works-list >.work-item > a:hover {
+    opacity: 0.5;
+}
 
+@media (min-width: 767px) {
+    .works-list {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+@media (min-width: 1199px) {
+    .works-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
     
 
-
-
-
+}
