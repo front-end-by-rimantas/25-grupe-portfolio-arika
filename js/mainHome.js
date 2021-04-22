@@ -6,6 +6,8 @@
 import { servicesData } from './data/servicesData.js';
 import { services } from './components/services/services.js';
 /* latest works */
+import {worksData} from './data/worksData.js';
+import {works} from './components/works/works.js';
 /* skills */
 /* testimonials */
 /* blog */
@@ -72,6 +74,7 @@ function init() {
 /* services */
 services('#services_block', servicesData);
 /* latest works */
+works('#works_block', worksData);
 /* skills */
 /* testimonials */
 /* blog */
