@@ -1,12 +1,20 @@
+.container.header {
+    padding: 0;
+    position: relative;
+    background-image: url(../../img/Hero/background.jpg);
+    box-shadow: 0 10px 20px #0002;
+  }
 .header > .row {
     margin-top: 0;
     margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   }
 .header .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
   }
   .header nav {
     display: flex;
@@ -15,19 +23,25 @@
     font-size: 18px;
   }
   .header nav a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
   }
-  .header headerlink a {
-    color: #333;
+  .header .logo-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #ffffff;
     text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
   }
   .header nav .item {
     display: inline-block;
     padding: 0 10px;
-    line-height: inherit;
-    font-size: inherit;
-    color: #333;
+    line-height: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
     text-decoration: none;
     position: relative;
   }
@@ -37,21 +51,27 @@
   }
   .header nav .dropdown > .submenu {
     display: none;
-    width: 250px;
+    width: 180px;
     position: absolute;
+    margin: 0;
     background-color: #fff;
-    box-shadow: 0 4px 10px #0001;
+    box-shadow: 0px 26px 21px 0px rgb(0 0 0 / 10%);
     z-index: 1;
     font-size: 16px;
+    transition: ease all 0.55s;
+    
   }
   .header nav .dropdown.bottom > .submenu {
     left: 0;
-    top: 100%;
+    top: 110%;
   }
   .header nav .dropdown:hover > .submenu {
     display: flex;
     flex-direction: column;
     line-height: 40px;
+  }
+  .header nav .dropdown > .submenu a {
+    color: #333;
   }
   .header nav .dropdown > .submenu a:hover {
     color: var(--color-red);
