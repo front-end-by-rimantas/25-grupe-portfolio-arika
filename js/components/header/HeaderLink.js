@@ -34,7 +34,7 @@ class HeaderLink {
 
     render() {
         const { href, text } = this.data;
-        let HTML = `<a href="${href}">${text}</a>`;
+        let HTML = `<a class="logo-text" href="${href}">${text}</a>`;
 
         this.DOM.insertAdjacentHTML('beforeend', HTML)
     }

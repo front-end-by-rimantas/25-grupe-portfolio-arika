@@ -6,7 +6,7 @@ const headerData = {
     },
     nav: [
         {
-            type: 'text',
+            type: 'link',
             href: '#',
             text: 'Home',
             submenu: [
@@ -21,7 +21,7 @@ const headerData = {
         {type: 'link', href: '#', text: 'Blog'},
         {type: 'link', href: '#', text: 'Contact'},
         {
-            type: 'text',
+            type: 'link',
             href: '#',
             text: 'Pages', 
             submenu: [
