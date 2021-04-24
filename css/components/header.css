@@ -53,3 +53,6 @@
     flex-direction: column;
     line-height: 40px;
   }
+  .header nav .dropdown > .submenu a:hover {
+    color: var(--color-red);
+  }
