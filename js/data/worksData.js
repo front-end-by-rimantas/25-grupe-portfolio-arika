@@ -3,39 +3,39 @@ const worksData = {
     list: [
         {
             img:'portfolio-1.jpg',
-            alt:'cardset'                                    
+            alt:'cardset-butterfly'                                     
         },
         {
             img:'portfolio-2.jpg',
-            alt:'banana'                      
+            alt:'banana'                       
         },
         {
             img:'portfolio-3.jpg',
-            alt:'picture'             
+            alt:'picture'               
         },
         {
             img:'portfolio-4.jpg',
-            alt:'pineapple'
+            alt:'pineapple'   
         },
         {
             img:'portfolio-5.jpg',
-            alt:'hand'                     
+            alt:'hand'                       
         },
         {
             img:'portfolio-6.jpg',
-            alt:'cups'                         
+            alt:'cups'                     
         },
         {
             img:'portfolio-7.jpg',
-            alt:'polaroid'                    
+            alt:'polaroid'       
         },
         {
             img:'portfolio-8.jpg',
-            alt:'postcards'                       
+            alt:'postcards'                      
         },
         {
             img:'portfolio-1.jpg',
-            alt:'cardset'                    
+            alt:'cardset-butterfly'
         },
     ]
 }
@@ -43,3 +43,8 @@ const worksData = {
 
 
 export {worksData}
+
+
+
+//url:"google.com",          
+//urlText: "google"       
