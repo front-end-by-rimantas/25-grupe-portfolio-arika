@@ -11,11 +11,7 @@
 
 <body>
     <!-- HEADER START -->
-    <header class="container">
-        <div class="row">
-            LOGO + NAV + ICONS
-        </div>
-    </header>
+    <header id="main_header" class="container"></header>
     <!-- HEADER END -->
 
     <!-- HERO START -->
@@ -132,7 +128,7 @@
         <div class="row blog-row">
             <div class="col-12 col-lg-4 blog-item">
                 <img src="./img/latestBlog/latestblog1.png"> 
-                <p class="blog-item-p">02 Mar 2019 | Design</p>
+                <p class="blog-item-p">02 Mar 2021 | Design</p>
                 <a href="#" class="blog-item-a">Make your Marketing website</a>
                 <p class="blog-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="blog-item-read">Read More</a>
@@ -140,7 +136,7 @@
 
             <div class="col-12 col-lg-4 blog-item">
                 <img src="./img/latestBlog/latestblog2.png"> 
-                <p class="blog-item-p">02 Mar 2019 | Design</p>
+                <p class="blog-item-p">02 Mar 2021 | Design</p>
                 <a href="#" class="blog-item-a">Make your Marketing website</a>
                 <p class="blog-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="blog-item-read">Read More</a>
@@ -148,7 +144,7 @@
 
             <div class="col-12 col-lg-4 blog-item">
                 <img src="./img/latestBlog/latestblog3.png"> 
-                <p class="blog-item-p">02 Mar 2019 | Design</p>
+                <p class="blog-item-p">02 Mar 2021 | Design</p>
                 <a href="#" class="blog-item-a">Make your Marketing website</a>
                 <p class="blog-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="blog-item-read">Read More</a>
@@ -161,31 +157,52 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="title">Get in touch</h2>
+                <h2 class="title">Get in <span class="underline">touch<div class="line"></div></span></h2>
                 <h3 class="subtitle">Hello, I’m a UI/UX Designer & Frontend,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 get-touch">
                 <h2>Drop us a line</h2>
                 <h3>We are here to answer any question you may have</h3> 
-                FORM
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                <form>
+                    <div class="form-row">
+                        <input name="name" type="text" palaceholder="Name" required>
+                        <input id="email" type="email" palaceholder="Email" required>
+                        <input id="comment" type="comment" palaceholder="Your comment" required>
+                    </div>
+                </form>
+
                 <p>We respect your privacy and do not tolerate spam and will never sell, rent, lease or give away your information</p>
                 <a href="#" class="btn">GET IN TOUCH</a>
             </div>
+
         </div>
         <div class="row">
             <div class="col-12 col-sm-6 col-xl-3">
-                Get in touch ITEM 1
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p class"#">Address</p>
+                <p class"#">123 6th St. Melbourne</p>
+                <p class"#">FL 32904, USA</p>    
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                Get in touch ITEM 2
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                <p class"#">Email</p>
+                <p class"#">info@yourdomain.com</p>
+                <p class"#">sale@yourdomain.com</p>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                Get in touch ITEM 3
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p class"#">Phone</p>
+                <p class"#">Mob: +01 000 000 000</p>
+                <p class"#">Fax: +01 000 000 000</p>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                Get in touch ITEM 4
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <p class"#">Working Hr</p>
+                <p class"#">Monday to Friday</p>
+                <p class"#">(9:00 to 18:00)</p>
             </div>
         </div>
     </div>
